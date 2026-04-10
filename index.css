@@ -505,9 +505,17 @@ img {
   .nav-btn span {
     font-size: 0.85rem;
   }
+  .marquee-banner {
+    min-height: auto;
+    padding: 15px 10px;
+  }
+  .marquee-banner::before {
+    font-size: 0.75rem;
+  }
   .hero {
-    padding: 60px 16px;
-    height: 90vh;
+    padding: 40px 16px;
+    height: auto;
+    min-height: 70vh;
   }
   .about {
     flex-direction: column;
